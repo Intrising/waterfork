@@ -20,12 +20,12 @@ See https://github.com/songgao/packets for functions for parsing various packets
 
 ## Installation
 ```
-go get -u github.com/songgao/water
-go get -u github.com/songgao/water/waterutil
+go get -u github.com/Intrising/waterfork
+go get -u github.com/Intrising/waterfork/waterutil
 ```
 
 ## Documentation
-[http://godoc.org/github.com/songgao/water](http://godoc.org/github.com/songgao/water)
+[http://godoc.org/github.com/Intrising/waterfork](http://godoc.org/github.com/Intrising/waterfork)
 
 ## Example
 
@@ -38,7 +38,7 @@ import (
 	"log"
 
 	"github.com/songgao/packets/ethernet"
-	"github.com/songgao/water"
+	"github.com/Intrising/waterfork"
 )
 
 func main() {
@@ -102,7 +102,7 @@ package main
 import (
 	"log"
 
-	"github.com/songgao/water"
+	"github.com/Intrising/waterfork"
 )
 
 func main() {
@@ -169,7 +169,7 @@ import (
 	"log"
 
 	"github.com/songgao/packets/ethernet"
-	"github.com/songgao/water"
+	"github.com/Intrising/waterfork"
 )
 
 func main() {
